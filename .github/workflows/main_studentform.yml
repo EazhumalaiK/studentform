@@ -60,5 +60,5 @@ jobs:
         with:
           app-name: 'studentform'
           slot-name: 'Production'
-          package: './build'
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3CC52C0BD53543EF9D93DAED3216A4A0 }}
